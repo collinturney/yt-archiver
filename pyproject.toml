@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "yt-archiver"
+version = "0.1.0"
+description = "YouTube video archival tool"
+dependencies = [
+    "glom",
+    "pyyaml",
+    "scrapetube",
+    "yt-dlp"
+]
+
+[project.scripts]
+yt-archiver = "yt_archiver.cli:main"
