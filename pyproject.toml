@@ -8,6 +8,7 @@ description = "YouTube video archival tool"
 dependencies = [
     "glom",
     "pyyaml",
+    "rich",
     "scrapetube",
     "yt-dlp"
 ]
